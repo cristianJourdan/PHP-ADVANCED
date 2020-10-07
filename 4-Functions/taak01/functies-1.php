@@ -1,12 +1,12 @@
 <?php
-function schrijfkleur($skleur){
+function schrijfkleur($skleur,$acherkleur){
 
-    echo "Deze tekst is in de kleur $skleur <br>";
+    echo   "<div style=\"color:$acherkleur;\">" . 'Deze tekst is in de kleur' . " " . $skleur . "</div>" ;
     
 }
-    schrijfkleur("rood");
-    schrijfkleur("blauw");
-    schrijfkleur("groen");
-    schrijfkleur("geel");
+    schrijfkleur("rood","red");
+    schrijfkleur("blauw","blue");
+    schrijfkleur("groen","green");
+    schrijfkleur("geel","yellow");
 
 ?>

@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="POST">
+    <form action="gegevens.php" method="POST">
         <label>First name:</label><br>
         <input type="text" name="fname" value="cristian"><br>
         <label >Last name:</label><br>
-        <input type="text" name="lname" value="jourdan"> ><br>
+        <input type="text" name="lname" value="jourdan"> <br>
         <label >klas:</label><br>
         <input type="text" name="klas" value="9a"><br>
         <label >leeftijd:</label><br>
@@ -25,12 +25,13 @@
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
-        <label for="cars">Choose a color:</label>
+        <label for="colors">Choose a color:</label>
         <select name="kleuren" id="kleuren">
-            <option value="rood">rood</option>
-            <option value="blauw">blauw</option>
-            <option value="geel">geel</option>
-            <option value="groen">groen</option>
+            <option value="red">rood</option>
+            <option value="blue">blauw</option>
+            <option value="yellow">geel</option>
+            <option value="green">groen</option>
+            <option value="purple">paars</option>
           </select>
           <input type="submit" value="Submit">
       </form> 
